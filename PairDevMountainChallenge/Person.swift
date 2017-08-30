@@ -15,8 +15,8 @@
 //        self.name1 = name1
 //    }
 //}
-//
-//
+
+
 //class Person2 {
 //    let name2: String
 //    
