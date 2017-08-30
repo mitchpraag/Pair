@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		AA6D71511F563DFF00C34E33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D71501F563DFF00C34E33 /* AppDelegate.swift */; };
-		AA6D71531F563DFF00C34E33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D71521F563DFF00C34E33 /* ViewController.swift */; };
 		AA6D71561F563DFF00C34E33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6D71541F563DFF00C34E33 /* Main.storyboard */; };
 		AA6D71581F563DFF00C34E33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA6D71571F563DFF00C34E33 /* Assets.xcassets */; };
 		AA6D715B1F563DFF00C34E33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6D71591F563DFF00C34E33 /* LaunchScreen.storyboard */; };
 		AA6D71661F563E0000C34E33 /* PairDevMountainChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D71651F563E0000C34E33 /* PairDevMountainChallengeTests.swift */; };
 		AA6D71711F563E0000C34E33 /* PairDevMountainChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D71701F563E0000C34E33 /* PairDevMountainChallengeUITests.swift */; };
+		AA6D717F1F56416200C34E33 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D717E1F56416200C34E33 /* TableViewController.swift */; };
+		AA6D71811F56439400C34E33 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D71801F56439400C34E33 /* Person.swift */; };
+		AA6D71831F56442800C34E33 /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D71821F56442800C34E33 /* PersonController.swift */; };
+		AA6D71851F56505900C34E33 /* randomizeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D71841F56505900C34E33 /* randomizeer.swift */; };
+		AA6D71881F5654B300C34E33 /* Persons Data Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA6D71861F5654B300C34E33 /* Persons Data Model.xcdatamodeld */; };
+		AA6D718A1F56566200C34E33 /* personConvience.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D71891F56566200C34E33 /* personConvience.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		AA6D714D1F563DFF00C34E33 /* PairDevMountainChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PairDevMountainChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6D71501F563DFF00C34E33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA6D71521F563DFF00C34E33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA6D71551F563DFF00C34E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA6D71571F563DFF00C34E33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA6D715A1F563DFF00C34E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,12 @@
 		AA6D716C1F563E0000C34E33 /* PairDevMountainChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PairDevMountainChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6D71701F563E0000C34E33 /* PairDevMountainChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairDevMountainChallengeUITests.swift; sourceTree = "<group>"; };
 		AA6D71721F563E0000C34E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6D717E1F56416200C34E33 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		AA6D71801F56439400C34E33 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = ../Person.swift; sourceTree = "<group>"; };
+		AA6D71821F56442800C34E33 /* PersonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
+		AA6D71841F56505900C34E33 /* randomizeer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = randomizeer.swift; sourceTree = "<group>"; };
+		AA6D71871F5654B300C34E33 /* Persons Data Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Persons Data Model.xcdatamodel"; sourceTree = "<group>"; };
+		AA6D71891F56566200C34E33 /* personConvience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = personConvience.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,7 @@
 		AA6D71441F563DFF00C34E33 = {
 			isa = PBXGroup;
 			children = (
+				AA6D71841F56505900C34E33 /* randomizeer.swift */,
 				AA6D714F1F563DFF00C34E33 /* PairDevMountainChallenge */,
 				AA6D71641F563E0000C34E33 /* PairDevMountainChallengeTests */,
 				AA6D716F1F563E0000C34E33 /* PairDevMountainChallengeUITests */,
@@ -98,8 +109,12 @@
 			isa = PBXGroup;
 			children = (
 				AA6D71501F563DFF00C34E33 /* AppDelegate.swift */,
-				AA6D71521F563DFF00C34E33 /* ViewController.swift */,
 				AA6D71541F563DFF00C34E33 /* Main.storyboard */,
+				AA6D717E1F56416200C34E33 /* TableViewController.swift */,
+				AA6D71821F56442800C34E33 /* PersonController.swift */,
+				AA6D71801F56439400C34E33 /* Person.swift */,
+				AA6D71861F5654B300C34E33 /* Persons Data Model.xcdatamodeld */,
+				AA6D71891F56566200C34E33 /* personConvience.swift */,
 				AA6D71571F563DFF00C34E33 /* Assets.xcassets */,
 				AA6D71591F563DFF00C34E33 /* LaunchScreen.storyboard */,
 				AA6D715C1F563DFF00C34E33 /* Info.plist */,
@@ -262,7 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA6D71531F563DFF00C34E33 /* ViewController.swift in Sources */,
+				AA6D71881F5654B300C34E33 /* Persons Data Model.xcdatamodeld in Sources */,
+				AA6D71831F56442800C34E33 /* PersonController.swift in Sources */,
+				AA6D71811F56439400C34E33 /* Person.swift in Sources */,
+				AA6D71851F56505900C34E33 /* randomizeer.swift in Sources */,
+				AA6D718A1F56566200C34E33 /* personConvience.swift in Sources */,
+				AA6D717F1F56416200C34E33 /* TableViewController.swift in Sources */,
 				AA6D71511F563DFF00C34E33 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -534,6 +554,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA6D71861F5654B300C34E33 /* Persons Data Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA6D71871F5654B300C34E33 /* Persons Data Model.xcdatamodel */,
+			);
+			currentVersion = AA6D71871F5654B300C34E33 /* Persons Data Model.xcdatamodel */;
+			path = "Persons Data Model.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AA6D71451F563DFF00C34E33 /* Project object */;
 }
